@@ -1,8 +1,8 @@
-# DotLiquid.Mailer
+# DotLiquid.Mailer.Core
 
-DotLiquid.Mailer is a simple SMTP mailing service which uses 
+DotLiquid.Mailer.Core is a simple SMTP mailing service which uses 
 [DotLiquid](http://dotliquidmarkup.org) as templating engine. DotLiquid is Ruby's 
-[Liquid Markup](http://liquidmarkup.org) ported to the .net framework.
+[Liquid Markup](http://liquidmarkup.org) ported to the .net framework. It is provided as a NetStandard 2.0 library.
 
 All base documentation is available from the 
 [DotLiquid Wiki pages](https://github.com/dotliquid/dotliquid/wiki). The test project 
@@ -49,7 +49,7 @@ Just instanciate a new MailEngine object (as IMailEngine) and do the apropriate 
 ```
 
 ## Singleton
-`DotLiquid.Mailer` may also be used as a Singleton, out of the box. All initialization and method 
+`DotLiquid.Mailer.Core` may also be used as a Singleton, out of the box. All initialization and method 
 calls is done by setting the according properties or calling the methods of `MailEngine.Instance`.
 
 ```csharp
