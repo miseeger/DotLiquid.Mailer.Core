@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <Version>1.0.0.0</Version>
+    <Authors>MiSeeger</Authors>
+    <Company>Company XYZ</Company>
+    <Product>DotLiqid Mailer for dotNET Core</Product>
+    <PackageId>DotLiqiuid.Mailer.Core</PackageId>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+    <Description>DotLiqid Mailer for dotNET Core NetStandard 2.0</Description>
+    <Copyright>(c) 2015 - 2019 MiSeeger</Copyright>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DotLiquid" Version="2.0.314" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Nuget\packages\" />
+  </ItemGroup>
+
+</Project>

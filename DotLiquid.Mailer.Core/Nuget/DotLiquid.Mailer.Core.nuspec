@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>DotLiquid.Mailer.Core</id>
+        <version>1.0.0</version>
+        <title>DotLiquid.Mailer.Core</title>
+        <authors>MiSeeger</authors>
+        <owners>Michael Seeger</owners>
+        <license type="expression">MIT</license>
+        <projectUrl>https://github.com/miseeger/DotLiquid.Mailer</projectUrl>
+        <iconUrl>https://github.com/miseeger/DotLiquid.Mailer/blob/master/DotLiquid.Mailer/logo/DotLiquidMailer.png</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>SMTP mailing service using DotLiquid as templating engine, supporting poco viewmodels as well as anonymous objects.</description>
+        <summary>SMTP mailing service using DotLiquid as templating engine.</summary>
+        <releaseNotes>Primary release.</releaseNotes>
+        <tags>email delivery dotliquid liquid mail merge text html dotnet core</tags>
+        <dependencies>
+            <dependency id="DotLiquid" version="2.0.314" />
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="..\bin\Release\netstandard2.0\DotLiquid.Mailer.Core.dll" target="lib\netstandard2.0\DotLiquid.Mailer.Core.dll" />
+    </files>
+</package>
